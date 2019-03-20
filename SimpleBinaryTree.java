@@ -1,6 +1,6 @@
-package cs;
+package Package;
 
-public class project {
+public class SimpleBinaryTree {
 	
 	private class Elem{
 		public int data;
@@ -40,7 +40,7 @@ public class project {
 	}
 	
 	
-	public project() {
+	public SimpleBinaryTree() {
 		
 		BinaryTree t = new BinaryTree();
 		t.AddData(5);
@@ -56,7 +56,7 @@ public class project {
 	}
 	
 	public static void main(String[] t) {
-		project p = new project();
+		SimpleBinaryTree p = new SimpleBinaryTree();
 	}
 }
 
