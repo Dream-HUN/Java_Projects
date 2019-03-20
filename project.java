@@ -46,19 +46,13 @@ public class project {
 		t.AddData(5);
 		t.AddData(2);
 		t.AddData(1);
+		t.AddData(9);
 		t.AddData(4);
+		t.AddData(8);
 		t.AddData(6);
 		t.AddData(7);
-		t.AddData(8);
-		t.AddData(9);
 		t.AddData(10);
 		t.InOrder();
-		
-		/*Lista l = new Lista();
-		l.liste();
-		System.out.println();
-		l.delv();
-		l.liste();*/
 	}
 	
 	public static void main(String[] t) {
